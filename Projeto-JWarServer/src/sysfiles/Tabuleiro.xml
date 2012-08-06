@@ -1,0 +1,36 @@
+<Tabuleiro> 
+	<Continentes>
+		<Continente>
+			<Nome> "América do Sul" </Nome>
+			<Fronteiras>
+			
+			</Fronteiras>
+		</Continente>
+		<Continente>
+			<Nome> "América do Norte" </Nome>
+			<Fronteiras>
+			</Fronteiras>
+		</Continente>
+		<Continente>
+			<Nome> "Africa" </Nome>
+			<Fronteiras>
+			</Fronteiras>
+		</Continente>
+		<Continente>
+			<Nome> "Asia" </Nome>
+			<Fronteiras>
+			</Fronteiras>
+		</Continente>
+		<Continente>
+			<Nome> "Europa" </Nome>
+			<Paises>
+			</Paises>
+		</Continente>
+		<Continente>
+			<Nome> "Oceania" </Nome>
+			<Paises>
+			</Paises>
+		</Continente>
+
+	</Continentes>
+</Tabuleiro>

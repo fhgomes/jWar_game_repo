@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Projeto-JWarCommons"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Projeto-JWarLib"/>
+	<classpathentry kind="lib" path="lib/hibernatecompleto-lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="lib/hibernatecompleto-lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/hibernatecompleto-lib/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="lib/hibernatecompleto-lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="lib/hibernatecompleto-lib/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="lib/hibernatecompleto-lib/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="lib/hibernatecompleto-lib/hibernate-core.jar"/>
+	<classpathentry kind="lib" path="lib/hibernatecompleto-lib/hibernate-testing.jar"/>
+	<classpathentry kind="lib" path="lib/hibernatecompleto-lib/javassist-3.4.GA.jar"/>
+	<classpathentry kind="lib" path="lib/hibernatecompleto-lib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-lib/mysql-connector-java-5.0.4-bin.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-lib/mysql-grt-java-1.0.0-bin.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-lib/sapdbc-7_6_00_12_4339.jar"/>
+	<classpathentry kind="lib" path="lib/SLF4J-lib/slf4j-api-1.5.5.jar"/>
+	<classpathentry kind="lib" path="lib/SLF4J-lib/slf4j-simple-1.5.5.jar"/>
+	<classpathentry kind="lib" path="lib/XmlRpc-lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/XmlRpc-lib/ws-commons-util-1.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/XmlRpc-lib/xmlrpc-client-3.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/XmlRpc-lib/xmlrpc-common-3.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/XmlRpc-lib/xmlrpc-server-3.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/XmlRpc-lib/xpp3_min-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="lib/XmlRpc-lib/xstream-1.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons/collections3.2.1-lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons/loggin1.1.1-lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons/loggin1.1.1-lib/commons-logging-adapters-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons/loggin1.1.1-lib/commons-logging-api-1.1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
