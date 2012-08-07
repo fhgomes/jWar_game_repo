@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<gui> 
+    <mainmdi> 
+   <title>Minha aplicação de prova</title> 
+
+   <dimension> 
+      	<width>800</width> 
+      	<height>600</height> 
+   </dimension> 
+   <state>maximized</state> 
+    </mainmdi> 
+
+   <userform> 
+   <title>Gestão de Usuários</title> 
+   <dimension> 
+      	<width>800</width> 
+      	<height>600</height> 
+   </dimension> 
+   <state>normal</state> 
+    </userform> 
+
+    <printer.form> 
+   <dimension> 
+      	<width>320</width> 
+      	<height>200</height> 
+   </dimension> 
+    </printer.form> 
+
+    <languages default="Castellano"> 
+   <language>Castellano</language> 
+   <language>English</language> 
+   <language>French</language> 
+    </languages> 
+</gui> 
