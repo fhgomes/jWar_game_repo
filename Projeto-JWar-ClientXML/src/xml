@@ -1,0 +1,43 @@
+XStream xstream = new XStream();
+You require xstream-[version].jar and xpp3-[version].jar in the classpath. XPP3 is a very fast XML pull-parser implementation. If you do not want to include this dependency, you can use a standard JAXP DOM parser instead:
+
+XStream xstream = new XStream(new DomDriver()); // does not require XPP3 library
+Note: This class is a simple facade designed for common operations. For more flexibility you may choose to create your own facade that behaves differently.
+
+Now, to make the XML outputted by XStream more concise, you can create aliases for your custom class names to XML element names. This is the only type of mapping required to use XStream and even this is optional.
+
+xstream.alias("person", Person.class);
+xstream.alias("phonenumber", PhoneNumber.class);
+
+
+Serializing an object to XML
+
+Let's create an instance of Person and populate its fields:
+
+Person joe = new Person("Joe", "Walnes");
+joe.setPhone(new PhoneNumber(123, "1234-456"));
+joe.setFax(new PhoneNumber(123, "9999-999"));
+Now, to convert it to XML, all you have to do is make a simple call to XStream:
+
+String xml = xstream.toXML(joe);
+The resulting XML looks like this:
+
+<person>
+  <firstname>Joe</firstname>
+  <lastname>Walnes</lastname>
+  <phone>
+    <code>123</code>
+    <number>1234-456</number>
+  </phone>
+  <fax>
+    <code>123</code>
+    <number>9999-999</number>
+  </fax>
+</person>
+It's that simple. Look at how clean the XML is.
+
+Deserializing an object back from XML
+
+To reconstruct an object, purely from the XML:
+
+Person newJoe = (Person)xstream.fromXML(xml);
